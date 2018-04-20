@@ -1,0 +1,1 @@
+function htmlSize(){var b=document.documentElement;var a=b.getBoundingClientRect().width;if(a<750){b.style.fontSize=a/15+"px"}else{b.style.fontSize=750/15+"px"}}htmlSize();window.onresize=function(){htmlSize()};
